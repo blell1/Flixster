@@ -3,7 +3,27 @@ Blake Eller's Flixster project
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
+### User Stories
 
+#### REQUIRED (10pts)
+
+- [X] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+- [X] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
+
+#### BONUS
+
+- [ ] Trailers for popular movies are played automatically when the movie is selected (1 point).
+- [ ] When clicking on a popular movie (i.e. a movie voted for more than 5 stars) the video should be played immediately.
+- [ ] Less popular videos rely on the detailed page should show an image preview that can initiate playing a YouTube video.
+- [ ] Add a play icon overlay to popular movies to indicate that the movie can be played (1 point).
+- [ ] Apply the popular ButterKnife annotation library to reduce view boilerplate. (1 point)
+- [ ] Add a rounded corners for the images using the Glide transformations. (1 point)
+
+### Notes
+Describe any challenges encountered while building the app.
+I accidentally added a few extra letters a library i was supposed to include, and when i went to post my error as a question on the discussion board,
+i forgot to actually hit "post" and went to bed without actually posting the question, and didn't notice until late the next day.
+Everything else was fine though.
 ---
 
 ## Flix Part 1
@@ -24,8 +44,8 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
-<img src="https://i.imgur.com/kcBwBcQ.gif" width=250><br>
-[Backup gif link](https://imgur.com/kcBwBcQ)
+<img src="https://i.imgur.com/FDGpaVN.mp4" width=250><br>
+[Backup gif link](https://i.imgur.com/FDGpaVN.mp4)
 
 ### Notes
 Describe any challenges encountered while building the app.
